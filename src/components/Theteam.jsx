@@ -20,6 +20,12 @@ const Theteam = () => {
       <div className="about-head the-team-head" id='theteam'>
             Meet the Team
       </div>
+
+<center>
+      <div className="brief-desc">
+        Our team is made up of passionate leaders, dedicated volunteers, and community advocates working together to drive positive change in our ward. With diverse backgrounds and a shared commitment to service, we collaborate to plan, execute, and sustain development initiatives that matter to the people.
+      </div>
+</center>
        <div className="team-container">
                 <EachTeam image={team1} title={head1} text={text1}/>
                 <EachTeam image={team2} title={head2} text={text2}/>

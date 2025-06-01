@@ -20,12 +20,19 @@ const Projects = () => {
       <div className="about-head" id='projects'>
         Our Projects
       </div>
+
+<center>
+    <div className="brief-desc">
+      We focus on impactful, community-driven projects that address real needs within our ward. From road rehabilitation and clean water access to youth programs and health outreach, each project is designed to improve lives and promote sustainable development at the grassroots level.
+    </div>
+</center>
+
       <div className="projects-container">
         <EachProjects image={Infrastucture} title={title1} text={text1}/>
         <EachProjects image={Agriculture} title={title2} text={text2}/>
         <EachProjects image={Healthcare} title={title3} text={text3}/>
         <EachProjects image={Security} title={title4} text={text4}/>
-        </div>
+    </div>
 
 <center>
         <div className="more-btn">

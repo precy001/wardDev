@@ -29,7 +29,7 @@ const About = () => {
             </div>
 
 
-            <div className="title-head">
+            <div className="title-head media">
                 SCOPE
                 <hr className="hr" />
             </div>

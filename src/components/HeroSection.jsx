@@ -63,13 +63,11 @@ const HeroSection = () => {
 
     
         <div className="write-up">
+          <center>
           <div className="write-up-head" >
                        The Niger State <br />Ward Development Project
           </div>
-
-          <div className="write-up-content" >
-
-          </div>
+          </center>
         </div>
 
         <div className="overlay">
